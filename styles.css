@@ -1,0 +1,47 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr); 
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    row-gap: 15px;
+}
+#title {
+    color: rgb(0, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    grid-column: 4 / span 3;
+    text-align: center;
+}
+#encloser {
+    grid-column: 4 / 7;
+    grid-row: 3 / 5;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 25px;
+    color:white;
+    background-color: rgb(173, 49, 173);
+    font-size: 20px;
+}
+#cute {
+    font-size: 20px;
+    visibility: hidden;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+  20% { color: blue; }
+  40% { color: rgb(0, 255, 64); }
+  60% { color: rgb(0, 0, 0); }
+  80% { color: rgb(255, 0, 234); }
+  100% { color: red; }
+}
