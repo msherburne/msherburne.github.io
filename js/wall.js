@@ -19,12 +19,10 @@ function stringRun() {
     }
     
     if (runner === false) {
-        document.getElementById("error").innerHTML = runner;
         document.getElementById("error").style.visibility = "visible"
     }
     else if (runner === true){
         window.location.href = "home.html"
-        document.getElementById("error").innerHTML = runner;
         document.getElementById("error").style.visibility = "visible"
     }
     else {
