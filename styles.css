@@ -48,11 +48,29 @@ button {
     display: grid;
     justify-items: center;
 }
-#GE {
-    font-size: 10px;
+#login {
+    height: 200px;
+    width: 400px;
+    grid-column: 5;
+    grid-row: 2;
+    border-radius: 12px;
+    display: block;
+    background-color: rgb(0, 133, 241);
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#login form {
+    text-align: center;
+}
+#GEMMA {
+    font-size: 12px;
     padding-left: 6px;
     grid-column: 1;
     grid-row: 1;
+    font-weight: bold;
 }
 .buttons {
     grid-column: 1;
@@ -65,9 +83,10 @@ button {
     color: white;
     background-color: black;
     width: 160px;
+    height: auto;
     padding-right: auto;
     padding-left: 2%;
-    font-size: 25px;
+    font-size: 22px;
 }
 .buttons button:hover {
     color: black;

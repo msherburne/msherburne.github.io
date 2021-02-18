@@ -37,3 +37,17 @@ function humor() {
     p.innerHTML = "Which is saying a lot, because most people I just fake laugh for. Sometimes you just say things that catch me off guard as well. Those are especially funny. Sometimes when you talk about work I chuckle because of something you told me earlier that was really funny was given context by your co-workers. I really apreciate that about you."
     tit.innerHTML = "You Acually Make Me Laugh"
 }
+function empathy() {
+    let p = document.getElementById("conP");
+    let tit = document.getElementById("conTitle");
+
+    p.innerHTML = "You are able to understand what other people are going through which is an ability I hope to gain from you. You consider what others are going through even before what you are going through which could be a bad trait at times but overall improves the lives of the people around you. You may be a little too selfless but I'm sure my selfishness will eventually rub off, I suppose."
+    tit.innerHTML = "Nicest Person I Know..."
+}
+function interests() {
+    let p = document.getElementById("conP");
+    let tit = document.getElementById("conTitle");
+
+    p.innerHTML = "We share a lot of interests, yet there is so much I can learn from you. I love listening to you talk about the nitty-gritty of your job and I'm so greatful that you are such a great listener. I apreciate how you pay attention to what I care about and encourage me to become better at it. And I hope to be able to do the same for you."
+    tit.innerHTML = "We Are Two of a Kind!"
+}
