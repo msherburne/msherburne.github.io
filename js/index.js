@@ -5,5 +5,5 @@ function onSignIn(googleUser) {
     console.log('Image URL: ' + profile.getImageUrl());
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "home.html";
   }
