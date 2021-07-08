@@ -9,11 +9,15 @@
     <script type="text/javascript" src="main.js"></script>
     <title>MG</title>
 </head>
-<body class="index">
-    <h1>MG System</h1>
-    <div class="console">
-        <p>DISCLAIMER: The following should only be accessed with text and decode.</p>
-        <a href="code.html"><button class="style-1">Enter</button></a>
+<body>
+    <div style="min-height: 300px;">
+        <textarea style="min-width: 200px; min-height: 100px;" placeholder="Enter Coded Message...." id="mes"></textarea>
+        <br>
+        <input placeholder="Cypher" type="text" id="value">
+        <br>
+        <button style="margin-top: 20px;" id="decode" onclick=decode()>Decode</button>
+
     </div>
+    <a style="position: relative; bottom: 5px; grid-column: span auto;" href="code.html"><button class="style-1">Home</button></a>
 </body>
 </html>
